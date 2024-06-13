@@ -1,0 +1,95 @@
+/* Add all your styles here */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77d42a 3px solid;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+header #branding {
+    float: left;
+}
+header #branding h1 {
+    margin: 0;
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+header .highlight, header .current a {
+    color: #77d42a;
+}
+header a:hover {
+    color: #ccc;
+}
+#showcase {
+    min-height: 400px;
+    background: url('showcase.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: #fff;
+}
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#showcase p {
+    font-size: 20px;
+}
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: #fff;
+}
+.collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.collection-item {
+    flex: 1 1 300px;
+    margin: 10px;
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+    border-radius: 8px;
+}
+.collection-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}

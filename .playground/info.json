@@ -1,0 +1,42 @@
+{"a":"bagwala","b":"business ","c":"WEB"}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bag Wala - Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Bag Wala</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="collections.html">Collections</a></li>
+                    <li class="current"><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Our friendly customer service team is here to help.</p>
+        <p>Email us at <a href="mailto:bagwala@gmail.com">bagwala@gmail.com</a> or call us at 03196995792.</p>
+        <h3>Follow Us</h3>
+        <ul>
+            <li><strong>Instagram</strong>: <a href="https://www.instagram.com/yourusername/" target="_blank" rel="noopener noreferrer">@YourBagwalaInstagram</a></li>
+            <li><strong>Facebook</strong>: <a href="https://www.facebook.com/profile.php?id=61556879831220&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">@YourBagwalaFacebook</a></li>
+            <li><strong>Twitter</strong>: <a href="https://twitter.com/YourBagStoreTwitter" target="_blank" rel="noopener noreferrer">@YourBagStoreTwitter</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Thank you for choosing Bag Wala. We look forward to helping you find the perfect bag for your lifestyle!</p>
+    </footer>
+</body>
+</html>
